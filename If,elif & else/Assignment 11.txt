@@ -1,0 +1,9 @@
+# Check if a given number is a multiple of both 3 and 5.
+x = int(input("Enter the character ;"))
+
+
+if x % 3 ==0 and x % 5 == 0:
+    print("This number is a multiple of both 3 and 5.")
+else:
+    print("This number is not a multiple of both 3 and 5.  ")
+    

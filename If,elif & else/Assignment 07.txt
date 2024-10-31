@@ -1,0 +1,11 @@
+#Write a program to find the largest of three numbers.
+x = int(input("Enter the Number :"))
+y = int(input("Enter the Number :"))
+z = int(input("Enter the Number :"))
+if x>= y & z:
+    print("x")
+elif y>= x & z:
+    print("y")
+else:
+    print("z")
+    

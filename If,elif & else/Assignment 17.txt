@@ -1,0 +1,11 @@
+# Write a program that asks for an integer and checks if it’s divisible by 2, 3, or both.
+x = int(input("Enter the integer ; "))
+if x % 2 == 0  and x % 3 == 0:
+    print("it’s divisible by 2, 3 . ")
+elif x % 2 == 0:
+    print("it’s divisible by 2 ")
+elif x % 3 == 0:
+    print("it’s divisible by  3 ")
+else:
+    print("it’s not  divisible by 2,3 .")
+    

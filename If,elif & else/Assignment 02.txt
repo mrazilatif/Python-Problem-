@@ -1,0 +1,7 @@
+x = int(input("Enter the age: "))
+if x >= 40:
+    print("senior citizen")
+elif x <= 18:
+    print("minor")
+else:
+    print("adult")

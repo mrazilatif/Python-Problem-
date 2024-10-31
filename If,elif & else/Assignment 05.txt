@@ -1,0 +1,13 @@
+#Ask the user for a grade percentage and display the corresponding letter grade (A, B, C, D, F).
+x = int(input("Enter your number to get you grade :"))
+if x>=80:
+    print("You get A Grade")
+elif x>=70:
+    print("You get B Grade")
+elif x>=60:
+    print("You grt C Grade")
+elif x>=50:
+    print("You get D garde")
+else:
+    print("You are fail in this subject")
+    

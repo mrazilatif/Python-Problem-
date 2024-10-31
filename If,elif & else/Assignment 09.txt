@@ -1,0 +1,11 @@
+#Write a program to find the largest of t numbers.
+x = int(input("Enter the Number of side :"))
+y = int(input("Enter the Number of side :"))
+z = int(input("Enter the Number of side :"))
+if x>= y & z:
+    print("The sides form a valid triangle")
+elif y>= x & z:
+    print("The sides form a valid triangle")
+else:
+    print("The sides do not form a valid trianglez")
+    

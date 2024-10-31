@@ -1,0 +1,12 @@
+# Take the length of three sides and classify the triangle (equilateral, isosceles, or scalene).
+x = int(input("Enter the side 01 ; "))
+y = int(input("Enter the side 02 ; "))
+z = int(input("Enter the side 03 ; "))
+
+if x == y == z:
+    print("Triangle is equilateral. ")
+elif x == y or y == z:
+    print("Triangle is isosceles.")
+else:
+    print("Triangle is scalene.")
+    

@@ -1,0 +1,7 @@
+#Take an integer and check if it’s even or odd.
+
+x = int(input("Enter the Number:"))
+if x>= 0:
+    print("Even Number")
+else:
+    print("Old Number")

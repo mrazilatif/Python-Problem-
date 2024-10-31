@@ -1,0 +1,12 @@
+# Check if a string input is uppercase, lowercase, or a mix.
+x = input("Enter a word: ")  # Take a string input from the user
+
+# Check if the string is uppercase, lowercase, or a mix
+if x.isupper():
+    print("This is uppercase.")
+elif x.islower():
+    print("This is lowercase.")
+elif any(char.isupper() for char in x) and any(char.islower() for char in x):
+    print("This is a mix of uppercase and lowercase.")
+else:
+    print("This string does not contain letters.")

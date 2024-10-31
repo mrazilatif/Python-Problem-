@@ -1,0 +1,10 @@
+# Write a program to determine if a given character is a vowel or consonant.
+x = input("Enter the character ;").lower()
+
+if x in "aeiou":
+    print("This is a vowal ")
+elif x.isalpha():
+    print("This is a consonant")
+else:
+    print("Invalied value plz enter correct vowal  ")
+    

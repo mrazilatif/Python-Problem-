@@ -1,0 +1,10 @@
+# Write a program to check if a number is within a specified range.
+x = int(input("Enter the number ; "))
+y = int(input("Enter the number ; "))
+z = int(input("Enter the number ; "))
+
+if x<= y and z:
+    print("Number is in a specified range . ")
+else:
+    print("Number is in a specified range .")
+    
