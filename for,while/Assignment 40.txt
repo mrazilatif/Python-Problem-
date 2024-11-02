@@ -1,0 +1,11 @@
+import time
+
+# Input the starting number for the countdown
+start_number = int(input("Enter the starting number for the countdown: "))
+
+# Countdown loop
+for i in range(start_number, -1, -1):
+    print(i)
+    time.sleep(1)  # Pause for 1 second between counts
+
+print("Countdown finished!")

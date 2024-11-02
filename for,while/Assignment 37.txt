@@ -1,0 +1,16 @@
+# Set the correct number
+correct_number = 42  # You can change this to any number you want
+
+# Initialize a variable to store the guessed number
+guessed_number = None
+
+# Loop until the correct number is guessed
+while guessed_number != correct_number:
+    guessed_number = int(input("Guess the correct number: "))
+    
+    if guessed_number < correct_number:
+        print("Too low! Try again.")
+    elif guessed_number > correct_number:
+        print("Too high! Try again.")
+    else:
+        print("Congratulations! You've guessed the correct number.")

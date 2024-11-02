@@ -1,0 +1,17 @@
+# Input a number from the user
+number = int(input("Enter a number: "))
+
+# Initialize sums for even and odd numbers
+sum_even = 0
+sum_odd = 0
+
+# Loop through numbers from 1 to the given number
+for i in range(1, number + 1):
+    if i % 2 == 0:
+        sum_even += i  # Add to even sum if i is even
+    else:
+        sum_odd += i   # Add to odd sum if i is odd
+
+# Output the results
+print(f"Sum of even numbers up to {number} is: {sum_even}")
+print(f"Sum of odd numbers up to {number} is: {sum_odd}")

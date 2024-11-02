@@ -1,0 +1,19 @@
+# Input an integer from the user
+number = int(input("Enter a number: "))
+
+# Initialize reversed_number to 0
+reversed_number = 0
+n = abs(number)  # Use absolute value to handle negative numbers
+
+# Reverse the number using a while loop
+while n > 0:
+    remainder = n % 10
+    reversed_number = reversed_number * 10 + remainder
+    n //= 10
+
+# If the original number was negative, make the reversed number negative
+if number < 0:
+    reversed_number = -reversed_number
+
+# Output the result
+print(f"The reverse of {number} is {reversed_number}")

@@ -1,0 +1,9 @@
+# Set the number to find
+x = 7
+
+# Start a loop from 1 to 10
+for i in range(1, 11):
+    print(i)
+    if i == x:
+        print("Target number reached! Breaking the loop.")
+        break

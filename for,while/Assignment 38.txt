@@ -1,0 +1,7 @@
+# Input the starting and ending numbers for the range
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
+
+# Print numbers in reverse order from end to start
+for i in range(end, start - 1, -1):
+    print(i)
