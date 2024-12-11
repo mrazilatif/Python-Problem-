@@ -1,0 +1,8 @@
+# Original dictionary
+original_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+# Dictionary comprehension to filter out values less than 3
+filtered_dict = {key: value for key, value in original_dict.items() if value >= 3}
+
+# Print the resulting dictionary
+print("Filtered Dictionary:", filtered_dict)

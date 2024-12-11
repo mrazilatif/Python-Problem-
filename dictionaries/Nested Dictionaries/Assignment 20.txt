@@ -1,0 +1,9 @@
+
+#terate through all the keys in the outermost level of the nested dictionary and print them.
+
+for keys in Person:
+    print(keys)
+
+for values in Person:
+    print(Person)
+

@@ -1,0 +1,9 @@
+# Given dictionaries
+dict1 = {'a': 5, 'b': 10}
+dict2 = {'a': 3, 'b': 7}
+
+# Add the values of matching keys
+result = {key: dict1[key] + dict2[key] for key in dict1.keys() & dict2.keys()}
+
+# Print the result
+print("Resulting Dictionary:", result)

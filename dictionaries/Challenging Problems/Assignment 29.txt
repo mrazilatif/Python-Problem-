@@ -1,0 +1,10 @@
+# Original dictionary
+original_dict = {'a': 5, 'b': 10, 'c': 15, 'd': 20}
+
+# Split dictionary into two based on whether values are odd or even
+even_dict = {key: value for key, value in original_dict.items() if value % 2 == 0}
+odd_dict = {key: value for key, value in original_dict.items() if value % 2 != 0}
+
+# Print the resulting dictionaries
+print("Even Dictionary:", even_dict)
+print("Odd Dictionary:", odd_dict)

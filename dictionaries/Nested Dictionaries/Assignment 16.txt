@@ -1,0 +1,11 @@
+#Create a nested dictionary to represent the following data:
+Person = {
+    "Name" : "John",
+    "Age" : 30,
+    "Address" : {
+"Street": "123 Elm St",
+        "City": "Boston"
+    }
+}
+print(Person["Name"])        # Output: John
+print(Person["Address"]["City"])  # Output: Boston

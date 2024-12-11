@@ -1,0 +1,4 @@
+#Delete the Address key from the nested dictionary.
+
+del Person["Address"]
+print(Person)

@@ -1,0 +1,17 @@
+
+# Original dictionary
+original_dict = {'a': 10, 'b': 15, 'c': 10, 'd': 15}
+
+# Create an empty dictionary to store unique values
+unique_dict = {}
+seen_values = set()
+
+# Iterate through the original dictionary
+for key, value in original_dict.items():
+    if value not in seen_values:
+        unique_dict[key] = value
+        seen_values.add(value)
+
+# Output the resulting dictionary
+print("Original Dictionary:", original_dict)
+print("Dictionary after removing duplicates:", unique_dict)
